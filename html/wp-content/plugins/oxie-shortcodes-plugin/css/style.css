@@ -1,0 +1,366 @@
+/* ==========================================================================
+   Rules
+   ========================================================================== */
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #cad2d7; padding: 0; margin: 3em 0; clear: both;  }
+hr.dash {  border-top-style: dashed!important;}
+hr.dot {  border-top-style: dotted!important; }
+
+
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+.btn{
+	border: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	padding: 0.5em 1.5em;
+	white-space: normal;
+	text-align: center;
+	display: inline-block;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+	margin-bottom: .5em;
+	margin-top: .5em;
+	text-decoration: none;
+	background-color: #fd542d;
+}
+.btn:hover{
+	background-color: #3c464c; 
+}
+.small-btn{
+	font-size: 14px;
+	padding: .4em .9em;
+}
+.xsmall-btn{
+	font-size: 12px;
+	padding: .2em .7em;
+}
+
+
+
+/* ==========================================================================
+   Lead Text
+   ========================================================================== */
+.lead, blockquote{ 
+	font-size: 24px;
+}
+
+/* ==========================================================================
+   Highlight Text
+   ========================================================================== */
+.highlight{ 
+	color: #ff6666;
+}
+
+
+/* ==========================================================================
+   Message Boxes
+   ========================================================================== */
+.message{
+	border-width: 1px;
+	border-style: solid;
+	display: block;
+	padding: .5em 1em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin-bottom: 1em;
+}
+.message.success{
+	border-color: #a2e29d;
+	background: #e2f5e4;
+	color: #548451;
+}
+.message.info{
+	border-color: #7bb8e2;
+	background: #d2e4f1;
+	color: #39566a;
+}
+.message.error{
+	border-color: #fc604a;
+	background: #ffd4ce;
+	color: #974439;
+}
+.message.notice{
+	border-color: #fcc84a;
+	background: #fffcce;
+	color: #a2802e;
+}
+
+
+/* ==========================================================================
+   Tabs
+   ========================================================================== */
+ul.tab-nav {
+	position: relative;
+	width:100%;
+	margin: 0 auto!important;
+	top: 1px;
+	padding-left: 0;
+}
+
+ul.tab-nav li {
+	float:left;
+	position:relative;
+	display:block;
+	text-align:center;
+	margin-right: 1px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 1px;
+	border-bottom: none;
+	padding: .5em 1em!important;
+	text-transform: none;
+	-webkit-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}
+ 
+ul.tab-nav li:before{
+	display: none;
+}
+
+ul.tab-nav li:hover {
+	cursor:pointer;
+}
+
+ul.tab-nav li.active {
+	z-index:50;
+	border: none;
+	border-style: solid;
+	border-width: 1px;
+	border-bottom: none!important;
+}
+
+.tab-content-block {
+	clear:both;
+	position:relative;
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	padding: .5em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.tab_content {
+	padding: 0px .5em 0px .5em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h3.v_nav {display: none;}
+
+h3.v_nav{
+	background: #ededed;
+	text-transform: none;
+	font-size: 16px;
+}	
+
+
+/* ==========================================================================
+   Toggles
+   ========================================================================== */
+.sc_toggle-btn { 
+	text-decoration:none; 
+	display:block;
+}
+.sc_toggle-content{ 
+	display:none;
+	padding-bottom: 10px;
+}
+.sc_toggle-content.active{
+	display: block;
+}
+ul.sc_toggle li:first-child, ul.accordion li:first-child, ul.sc_accordion li:first-child{
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+ul.sc_toggle li {
+	position:relative;
+	overflow:hidden;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-top: .25em;
+	padding-bottom: .25em;
+}
+ul.sc_toggle li a{
+	padding-top: .45em;
+	padding-right: 0;
+	padding-bottom: .45em;
+}
+ul.sc_toggle li:before{
+	top: 13px;
+}
+
+ul.sc_toggle{
+	margin-bottom: 1.5em;
+	padding-left: 0;
+}
+
+
+
+/* ==========================================================================
+   Accordians
+   ========================================================================== */
+.sc_accordion-btn { 
+	text-decoration:none; 
+	display:block;
+}
+.sc_accordion-content{ 
+	display:none;
+	padding-bottom: 10px;
+}
+.sc_accordion-content.active{
+	display: block;
+}
+ul.sc_accordion li {
+	position:relative;
+	overflow:hidden;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-top: .25em!important;
+	padding-bottom: .25em!important;
+}
+ul.sc_accordion li a{
+	padding-top: .45em;
+	padding-right: 0;
+	padding-bottom: .45em;
+}
+ul.sc_accordion li:before{
+	top: 13px!important;
+}
+ul.sc_accordion{
+	margin-bottom: 1.5em;
+	padding-left: 0;
+}
+
+
+
+/* ==========================================================================
+   Lightbox
+   ========================================================================== */
+   
+.sc_lightbox a, 
+.sc_lightbox_media a{
+	display: block;
+}
+
+.sc_lightbox a img,
+.sc_lightbox_media a img{
+	margin-bottom: 1em;
+}
+
+
+
+/* ==========================================================================
+   10. Graphs
+   ========================================================================== */
+ol.graphs{
+	margin: 0 0 2em;
+	list-style-type: none;
+	padding-left: 0;
+}
+ol.graphs > li:before{
+	display: none;
+}
+ol.graphs > li{
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	margin-bottom: .4em;
+	padding: 0;
+	list-style-type: none;
+}
+ol.graphs > li div{
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	padding: .2em 2%;
+}
+ol.graphs > li span{
+	float: right;
+}
+
+.per-10{
+	width: 6%;
+}
+
+.per-20{
+	width: 16%;
+}
+
+.per-30{
+	width: 26%;
+}
+
+.per-40{
+	width: 36%;
+}
+
+.per-50{
+	width: 46%;
+}
+
+.per-60{
+	width: 56%;
+}
+
+.per-70{
+	width: 66%;
+} 
+.per-80{
+	width: 76%;
+}
+
+.per-90{
+	width: 86%;
+}
+
+.per-100{
+	width: 96%;
+}
+
+
+
+
+/* ==========================================================================
+   10. Code Block
+   ========================================================================== */
+   
+pre{
+	font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+	margin-bottom:10px;
+	overflow:auto;
+	width:auto;
+	padding: 0 1em;
+	background-color:#fff;
+	background: #ffffff;
+	color: #333;
+	border-style: solid;
+	border-width: 1px;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2VmZWZlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 51%, #efefef 51%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(51%,#ffffff), color-stop(51%,#efefef));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 51%,#efefef 51%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#ffffff 51%,#efefef 51%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#ffffff 51%,#efefef 51%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 51%,#efefef 51%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef',GradientType=0 );
+	background-size: 100% 60px;
+	line-height: 30px;
+}
+
+
+
+

@@ -1,0 +1,499 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Oxie Core Plugin v1.0\n"
+"POT-Creation-Date: 2015-07-23 16:27+0200\n"
+"PO-Revision-Date: 2015-07-23 16:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: Theme Canon <themecanon@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../.\n"
+
+#: .././inc/functions/functions_cmb_pages.php:72
+msgid "No additional page settings available for this template type."
+msgstr ""
+
+#: .././inc/functions/functions_cmb_pages.php:85
+msgid "Gallery Settings"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_pages.php:103
+msgid "Number of columns"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_pages.php:117
+#: .././inc/functions/functions_cmb_posts.php:756
+msgid ""
+"Add WordPress galleries using the Add Media button. You can add as many "
+"WordPress galleries as you would like."
+msgstr ""
+
+#: .././inc/functions/functions_cmb_pages.php:118
+msgid ""
+"You can add a caption to each image when creating your WordPress gallery."
+msgstr ""
+
+#: .././inc/functions/functions_cmb_pages.php:119
+msgid ""
+"The images and captions from these WordPress galleries will be used in the "
+"gallery."
+msgstr ""
+
+#: .././inc/functions/functions_cmb_pages.php:120
+#: .././inc/functions/functions_cmb_posts.php:758
+msgid ""
+"The images will appear in the same order as they appear in the galleries. "
+"Duplicate images will be removed."
+msgstr ""
+
+#: .././inc/functions/functions_cmb_pages.php:121
+msgid ""
+"You can use the Text editor to rearrange the WordPress gallery shortcodes"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_pages.php:122
+msgid ""
+"You can use the Text editor to add a category attribute to the shortcodes e."
+"g. [gallery ids=\"1,2,3\" category=\"My Category\"]"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_pages.php:154
+#: .././inc/functions/functions_cmb_posts.php:307
+msgid "Select sidebar"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:45
+msgid "Prep Time"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:46
+msgid "15 mins"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:49
+msgid "Cook Time"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:50
+msgid "30 mins"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:53
+msgid "Yields"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:54
+msgid "18"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:61
+msgid "2 Cups - Organic Plain Flour"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:68
+msgid "Heat oven to 190°C/fan 170°C/gas 5"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:75
+msgid "Review"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:78
+msgid "My First Parameter"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:188
+msgid "General"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:198
+msgid "Display quote as a tweet"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:205
+msgid "Quote byline"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:220
+msgid "Post style"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:223
+msgid "Site default"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:224
+msgid "Full width featured image"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:225
+msgid "Compact featured image"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:226
+msgid "Full width featured image and sidebar"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:227
+msgid "Compact featured image and sidebar"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:234
+msgid "Feature style"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:237
+msgid "Featured image"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:238
+msgid "Use embeddable media instead of featured image"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:239
+msgid "Use featured image but open media link in lightbox"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:252
+msgid "Grid box style"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:255
+msgid "Default"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:256
+msgid "Side image"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:271
+msgid "Featured media - <i>(optional)</i>"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:282
+msgid "Hide from popular lists"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:296
+msgid "Hide feature in post"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:329
+msgid "Post Component: Info box"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:335
+msgid "Show info box"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:346
+#: .././inc/functions/functions_cmb_posts.php:520
+#: .././inc/functions/functions_cmb_posts.php:649
+msgid "Title"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:360
+msgid "Show meta"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:369
+msgid "Meta field label"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:371
+msgid "text"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:389
+msgid "Show checklist"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:395
+msgid "Checklist title"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:412
+#: .././inc/functions/functions_cmb_posts.php:455
+#: .././inc/functions/functions_cmb_posts.php:573
+msgid "delete"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:421
+#: .././inc/functions/functions_cmb_posts.php:464
+#: .././inc/functions/functions_cmb_posts.php:582
+msgid "Add"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:432
+msgid "Show ordered list"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:438
+msgid "Ordered list title"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:475
+msgid "Additional info title"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:483
+msgid "Additional info text <i>(accepts shortcodes and some HTML)</i>"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:505
+msgid "Post Component: Ratings"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:511
+msgid "Show ratings"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:528
+msgid ""
+"Overall score <i>(if decimal score remember to use period as decimal mark)</"
+"i>"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:536
+msgid "Out of a total <i>(required for parameters)</i>"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:544
+msgid "Summary"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:559
+msgid "Show parameters"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:569
+msgid "Parameter name"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:571
+msgid "Score"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:599
+msgid "Post Component: Ad"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:605
+msgid "Show Ad"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:616
+msgid "Post Component: About the Author"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:622
+msgid "Show About the Author box"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:634
+msgid "Post Component: More posts carousel"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:640
+msgid "Show more posts carousel"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:667
+msgid "Show"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:669
+msgid "Same category as post"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:670
+msgid "Latest posts"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:671
+msgid "Random posts"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:674
+msgid "Popular posts by views"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:675
+msgid "Popular posts by likes"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:676
+msgid "Popular posts by comments"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:682
+msgid "category"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:693
+msgid "Number of items to load"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:704
+msgid "Number of items to display at a time"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:715
+msgid "Excerpt length"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:725
+msgid "Hide excerpts"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:743
+msgid "Post Slider"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:749
+msgid "Show post slider"
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:755
+msgid "The post slider will replace the featured image at the top of the post."
+msgstr ""
+
+#: .././inc/functions/functions_cmb_posts.php:757
+msgid ""
+"The images from these WordPress galleries will be used in the post slider."
+msgstr ""
+
+#: .././inc/functions/functions_cmb_template.php:73
+msgid "Client"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:37
+msgid "Add New Templatefirstcap"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:38
+msgid "Edit Templatefirstcap"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:39
+msgid "New Templatefirstcap"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:40
+msgid "All Templatefirstcaps"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:41
+msgid "View Templatefirstcap"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:42
+msgid "Search Templatefirstcaps"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:43
+msgid "No templatelowercases found"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:44
+msgid "No templatelowercases found in the Trash"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:74
+#, php-format
+msgid "Templatefirstcap updated. <a href=\"%s\">View templatelowercase</a>"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:75
+msgid "Custom field updated."
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:76
+msgid "Custom field deleted."
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:77
+msgid "Templatefirstcap updated."
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:78
+#, php-format
+msgid "Templatefirstcap restored to revision from %s"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:79
+#, php-format
+msgid "Templatefirstcap published. <a href=\"%s\">View templatelowercase</a>"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:80
+msgid "Templatefirstcap saved."
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:81
+#, php-format
+msgid ""
+"Templatefirstcap submitted. <a target=\"_blank\" href=\"%s\">Preview "
+"templatelowercase</a>"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:82
+#, php-format
+msgid ""
+"Templatefirstcap scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview templatelowercase</a>"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:82
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:83
+#, php-format
+msgid ""
+"Templatefirstcap draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+"templatelowercase</a>"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:99
+msgid "Search Templatefirstcap Categories"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:100
+msgid "All Templatefirstcap Categories"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:101
+msgid "Parent Templatefirstcap Category"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:102
+msgid "Parent Templatefirstcap Category:"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:103
+msgid "Edit Templatefirstcap Category"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:104
+msgid "Update Templatefirstcap Category"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:105
+msgid "Add New Templatefirstcap Category"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:106
+msgid "New Templatefirstcap Category"
+msgstr ""
+
+#: .././inc/functions/functions_register_cpt_template.php:107
+msgid "Templatefirstcap Categories"
+msgstr ""

@@ -1,0 +1,21 @@
+/*
+Theme Name:     Oxie Child Theme
+Theme URI:      
+Description:    Child theme for Oxie
+Author:         ThemeCanon
+Author URI:     http://www.themecanon.com
+Template:       oxie
+Version:        1.0.0
+*/
+
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+.meta-center{display: inline-block!important;}
+ul.speakers_list{text-align:left;}
+ul.speakers_list li{list-style:none; display: inline-block; margin:0 10px;text-align:center; }
+ul.speakers_list li:before{content: none!important;}
+ul.speakers_list p{margin:0!important;}
+ul.speakers_list span{color: #ccc; text-transform: uppercase;}
+table.event_timing{margin:20px 0;}

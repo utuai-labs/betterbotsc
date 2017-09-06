@@ -1,0 +1,119 @@
+/************************************
+STYLE.CSS (FRONT END)									 
+
+UTILITY CLASSES
+
+WIDGET: TABS
+WIDGET: MORE POSTS
+
+*************************************/
+
+/************************************
+UTILITY CLASSES
+*************************************/
+
+	.float_right {
+		float: right;	
+	}
+
+	.hidden {
+		display: none;	
+	}
+	
+
+/************************************
+WIDGET: TABS
+*************************************/
+
+ul.tab-nav {
+	position: relative;
+	width:100%;
+	margin: 0 auto!important;
+	top: 1px;
+}
+ul.tab-nav li {
+	float:left;
+	position:relative;
+	display:block;
+	text-align:center;
+	margin-right: 1px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-style: solid!important;
+	border-width: 1px!important;
+	border-bottom: none!important;
+	padding: .5em 1em!important;
+	text-transform: none;
+} 
+ul.tab-nav li:before{
+	display: none;
+}
+ul.tab-nav li:hover {
+	cursor:pointer;
+}
+ul.tab-nav li.active {
+	z-index:50;
+	border: none;
+	border-style: solid;
+	border-width: 1px;
+	border-bottom: none;
+}
+.tab-content-block {
+	clear:both;
+	position:relative;
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	-webkit-border-radius: 0 3px 3px 3px;
+	border-radius: 0 3px 3px 3px;
+}
+.tab_content {
+	padding: 0px .5em 0px .5em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h3.v_nav {display: none;}
+
+h3.v_nav{
+	background: #ededed;
+	text-transform: none;
+	font-size: 16px;
+}	
+
+/************************************
+WIDGET: MORE POSTS
+*************************************/
+
+.widget .more-posts-thumbnails-list li {
+	overflow: hidden;
+	list-style-type: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+	position: relative;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 15px!important;
+	margin-bottom: 15px!important;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.widget .more-posts-thumbnails-list li:before{
+	display: none;
+}
+
+.widget .more-posts-thumbnails-list .thumbnails-list-img {
+	float: left;
+	left: 0;
+	width: 60px;
+	margin-right: 12px;
+}
+
+.thumbnails-list-title{
+	line-height: 1.1;
+}
+

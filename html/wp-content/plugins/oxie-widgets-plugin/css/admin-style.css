@@ -1,0 +1,100 @@
+/************************************
+ADMIN-STYLE.CSS
+
+UTILITY CLASSES
+WIDGET SORTABLE
+WIDGET: OPENING HOURS
+WIDGET: ACCORDION
+WIDGET: STATISTICS
+WIDGET: TABS
+
+*************************************/
+
+/************************************
+UTILITY CLASSES
+*************************************/
+
+	.float_right {
+		float: right;	
+	}
+
+	.hidden {
+		display: : none;	
+	}
+	
+
+/************************************
+WIDGET SORTABLE
+*************************************/
+
+	.widget_sortable li {
+		background-color: #e6e6e6;
+		border: 1px solid #c2c2c2;
+		padding: 5px;
+		cursor: move;
+	}	
+
+	/*default values for widget sortable placeholder remember that the widget_sortable_placeholder class can be overwritten using the data-placeholder param on controlling ul*/
+	.widget_sortable .widget_sortable_placeholder {
+		height: 47px;
+		background-color: #eee;
+		border: 1px dashed #bbb;
+	}
+
+/************************************
+WIDGET: OPENING HOURS
+*************************************/
+
+	.pair_left {
+		float: left;
+		width: 48%;
+		margin-right: 1%;
+	}
+
+	.pair_right {
+		overflow: hidden;
+	}
+
+	.paired_list input {
+		width: 100%;
+	}
+
+/************************************
+WIDGET: ACCORDION
+*************************************/
+
+	.widget_sortable .widget_accordion_placeholder {
+		height: 120px;
+		background-color: #eee;
+		border: 1px dashed #bbb;
+	}
+
+/************************************
+WIDGET: STATISTICS
+*************************************/
+
+	.widget_sortable .widget_statistics_placeholder {
+		height: 36px;
+		background-color: #eee;
+		border: 1px dashed #bbb;
+	}
+
+/************************************
+WIDGET: TABS
+*************************************/
+
+	.widget_sortable .widget_tabs_placeholder {
+		height: 132px;
+		background-color: #eee;
+		border: 1px dashed #bbb;
+	}
+
+/************************************
+WIDGET: TOGGLE
+*************************************/
+
+	.widget_sortable .widget_toggle_placeholder {
+		height: 132px;
+		background-color: #eee;
+		border: 1px dashed #bbb;
+	}
